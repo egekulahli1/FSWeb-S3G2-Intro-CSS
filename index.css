@@ -1,0 +1,91 @@
+.header-container {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    
+ }
+ .header-container img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+ * {
+    font-family: 'Roboto Mono', monospace ;
+}
+
+.ana-metin {
+    background-color:#DDB9A3;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.gezinizi-planlayin {
+    background-color:#FF764E ;
+    color:white ;
+}
+
+.bilgi-edinin {
+    background-color: #5ED3EB;
+    color:white ;
+}
+
+.karsilastirin {
+    background-color:#FFCD69 ;
+    color:white ;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button{
+    margin: 0 85px;
+}
+
+.footer {
+    background-color: #F9E7DC;
+    margin: auto;
+}
+
+.generic-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin : 0 auto;
+    width: 200;
+}
+
+.generic-section-container p {
+    width: 30%;
+  margin-top: 20px;
+}
+
+.generic-section-container img {
+    width: 10%;
+}
+
+
+footer {        
+    width: 100%;
+    background: #F9E7DC;
+    border-top: 1px dashed white;
+    position: relative;
+
+}
+
+footer img {
+    height: 50%;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%); 
+    top: 0;
+    left: 0;
+    position:relative;
+}
+
+footer nav {
+    position: relative;
+    padding: 20px 0;
+}
