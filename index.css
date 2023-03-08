@@ -1,23 +1,61 @@
-.header-container {
-    font-family: 'Chelsea Market', cursive;
-    text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.header-container {   
     
+    font-family: 'Chelsea Market', cursive;     
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;    
+
  }
- .header-container img {
+ .header-image img {
+   
+    width: 20%;
+    display: inline-block;
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    margin-right: 200px;  
   }
+.header-text {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.header-dummy {
+    
+    width: 20%;
+    display: inline-block;
+    height: 200px;
+}
+
+
+.header-text p {
+    margin-top: 20px;
+}
+
 
  * {
     font-family: 'Roboto Mono', monospace ;
 }
 
+
+
 .ana-metin {
     background-color:#DDB9A3;
     text-align: center;
-    width: 80%;
+    width: 100%;
+    max-width: 1280px; 
     margin: auto;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .gezinizi-planlayin {
@@ -38,16 +76,21 @@
 .button-container {
     display: flex;
     justify-content: center;
+
 }
 
 .button-container button{
-    margin: 0 85px;
+    
+    margin: 0 150px;
+    border-radius:10px 10px 10px 10px;
+    border: 0 white;
+    height: 60px;
+    width: 160px;
+    line-height: 60px;
+    margin-bottom: 40px;
 }
 
-.footer {
-    background-color: #F9E7DC;
-    margin: auto;
-}
+
 
 .generic-section-container {
     display: flex;
@@ -56,36 +99,41 @@
     text-align: center;
     margin : 0 auto;
     width: 200;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .generic-section-container p {
-    width: 30%;
+    width: 16%;
   margin-top: 20px;
 }
 
 .generic-section-container img {
-    width: 10%;
+    
+    width: 90px;
 }
 
 
 footer {        
     width: 100%;
+
     background: #F9E7DC;
     border-top: 1px dashed white;
     position: relative;
-
+    margin-bottom: 0;
+    margin: auto;
 }
 
 footer img {
-    height: 50%;
+    height: 180px;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%); 
-    top: 0;
-    left: 0;
-    position:relative;
+    
+    object-fit: cover;
+    object-position: top;
+    
 }
 
 footer nav {
-    position: relative;
-    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 0
 }
