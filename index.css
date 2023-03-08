@@ -116,7 +116,7 @@ body {
 
 footer {        
     width: 100%;
-
+    max-width: 1280px;
     background: #F9E7DC;
     border-top: 1px dashed white;
     position: relative;
